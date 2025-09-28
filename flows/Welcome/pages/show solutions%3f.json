@@ -1,0 +1,42 @@
+{
+  "name": "66b7429d-10e9-4c5c-b660-3e4af8794908",
+  "displayName": "show solutions?",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "webhook": "TwillioBridge",
+    "tag": "solutions",
+    "setParameterActions": [ {
+      "parameter": "contentSid",
+      "value": "HXbc336006b7da14d44671ee50f52c5525"
+    }, {
+      "parameter": "question",
+      "value": "show basic ideas how AstroFace AI can assist your business growth"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "yes_reply",
+    "triggerFulfillment": {
+      "generators": [ {
+        "generator": "projects/astro-470115/locations/global/agents/efca8fbb-8d64-44e7-9507-e4abdf65b83e/generators/08fca0c5-976b-4f93-8085-970446e86608",
+        "inputParameters": [ {
+          "key": "session",
+          "value": "$session.params.client_website_url"
+        } ],
+        "outputParameter": "$request.generative.solutions"
+      } ]
+    },
+    "targetPage": "show Solutions",
+    "name": "f823a696-0a21-4e32-82ec-57962d611f20",
+    "description": "yes_reply"
+  }, {
+    "intent": "no_reply",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "consultation Visit?",
+    "name": "1f9b0743-3a53-4f82-8fa4-da62cd43a6b5",
+    "description": "no_reply"
+  } ]
+}

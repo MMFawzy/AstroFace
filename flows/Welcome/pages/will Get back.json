@@ -1,0 +1,23 @@
+{
+  "name": "325839a6-aa91-447e-9b74-355ea800aae1",
+  "displayName": "will Get back",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Perfect! 👌 \nour consultation team will contact you very soon. ✅" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "bye bye",
+    "name": "c4589008-b1b7-44b4-95d5-6b7a140d436e"
+  } ]
+}

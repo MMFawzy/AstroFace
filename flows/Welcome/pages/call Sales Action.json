@@ -1,0 +1,23 @@
+{
+  "name": "a606751f-fbb6-479e-b3cd-b737c3cf892c",
+  "displayName": "call Sales Action",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "webhook": "TwillioBridge",
+    "tag": "call sales",
+    "setParameterActions": [ {
+      "parameter": "contentSid",
+      "value": "HXe94818990482598b6331f0c42737e8a9"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "bye bye",
+    "name": "e111a508-bf73-47bb-9707-6f629610edb6"
+  } ]
+}

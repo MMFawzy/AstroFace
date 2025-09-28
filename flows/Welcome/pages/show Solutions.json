@@ -1,0 +1,23 @@
+{
+  "name": "102207fb-611f-4486-8fba-b8fc7bbc7514",
+  "displayName": "show Solutions",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "$request.generative.solutions" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$request.generative.solutions != null",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "consultation Visit?",
+    "name": "017bb769-0645-47e1-b3e2-666052e7b2a0"
+  } ]
+}

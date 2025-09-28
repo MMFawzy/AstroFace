@@ -1,0 +1,24 @@
+{
+  "name": "f1032202-71d8-44d4-9466-a253ac49d095",
+  "displayName": "get client url",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Hey, Im AstroFace AI 😇  \nwhat is your company website 🌍? " ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "client Website",
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "show Client Info",
+    "name": "1a92f589-29e7-4e22-b8a4-68d355686409"
+  } ]
+}

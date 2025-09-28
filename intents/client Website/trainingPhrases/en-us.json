@@ -1,0 +1,202 @@
+{
+  "trainingPhrases": [ {
+    "id": "e8ea9c9f-7a91-4c3f-8984-1baf805b5dd0",
+    "parts": [ {
+      "text": "Find us online at astrofaceai.nl"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-us"
+  }, {
+    "id": "dc3abfae-b94e-4be7-93fb-c7e3900e9686",
+    "parts": [ {
+      "text": "More details are available at http://www.astrofaceai.nl"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-us"
+  }, {
+    "id": "dc139beb-f025-4c4f-91a7-43b6dae621ca",
+    "parts": [ {
+      "text": "Go to www.astrofaceai.nl for more information"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-us"
+  }, {
+    "id": "352162f4-381d-4a52-b46f-ce9fe39c74eb",
+    "parts": [ {
+      "text": "Our official website is located at https://www.astrofaceai.nl"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-us"
+  }, {
+    "id": "29a8a462-4ed2-4333-8433-21eb3e9f272d",
+    "parts": [ {
+      "text": "Please visit astrofaceai.nl"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-us"
+  }, {
+    "id": "311cbe78-80cd-4310-9287-e3ee14f41c79",
+    "parts": [ {
+      "text": "Check out our site at www.astrofaceai.nl"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-us"
+  }, {
+    "id": "a7501433-321b-41d1-8604-cd58c297cc5d",
+    "parts": [ {
+      "text": "You can access our website through http://astrofaceai.nl"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-us"
+  }, {
+    "id": "b3961c94-97c6-4058-8f56-1a1df010a9cd",
+    "parts": [ {
+      "text": "Visit our website at https://astrofaceai.nl"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-us"
+  }, {
+    "id": "609fa033-6c86-43e5-b7e8-9e830724455f",
+    "parts": [ {
+      "text": "The website address is www.astrofaceai.nl"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-us"
+  }, {
+    "id": "51ef52ab-dd5e-4ffa-82bc-0eb7aa35858c",
+    "parts": [ {
+      "text": "Our website is astrofaceai.nl"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-us"
+  }, {
+    "id": "d0659488-d5cd-410f-ae9f-9ff04ec6d8f1",
+    "parts": [ {
+      "text": "http://www.astrofaceai.nl",
+      "parameterId": "client_website_url",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-us"
+  }, {
+    "id": "2b08758f-bc8c-4e3a-b76d-d92e3f1a9924",
+    "parts": [ {
+      "text": "http://astrofaceai.nl",
+      "parameterId": "client_website_url",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-us"
+  }, {
+    "id": "08d86f8e-6f51-4acc-993e-7afd324df087",
+    "parts": [ {
+      "text": "https://astrofaceai.nl",
+      "parameterId": "client_website_url",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-us"
+  }, {
+    "id": "ac235752-d213-41e8-a657-02aad53f2fbc",
+    "parts": [ {
+      "text": "https://www.astrofaceai.nl",
+      "parameterId": "client_website_url",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-us"
+  }, {
+    "id": "dd265a0f-6e75-4e44-a459-9a0df14be02b",
+    "parts": [ {
+      "text": "Www.astrofaceai.nl",
+      "parameterId": "client_website_url",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-us"
+  }, {
+    "id": "813edcaf-ae0b-46e3-a4ac-2cf2220609d7",
+    "parts": [ {
+      "text": "astrofaceai.nl",
+      "parameterId": "client_website_url",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-us"
+  }, {
+    "id": "74189757-c857-4d56-915f-e7544b94b255",
+    "parts": [ {
+      "text": "you can find our website at astrofaceai.nl"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-us"
+  }, {
+    "id": "0ca14b0c-0567-4bbf-871c-3a1f6c1d5df0",
+    "parts": [ {
+      "text": "our company website is located at www.astrofaceai.nl"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-us"
+  }, {
+    "id": "e43c1efa-4a23-4acb-b41b-316b138216bd",
+    "parts": [ {
+      "text": "the URL for my company's website is astrofaceai.nl"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-us"
+  }, {
+    "id": "0449d2b1-de6e-4dec-a827-98acf621b1ba",
+    "parts": [ {
+      "text": "our website is www.astrofaceai.nl"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-us"
+  }, {
+    "id": "4ccb14cc-e72f-4024-be36-21f199d9212c",
+    "parts": [ {
+      "text": "the company's website is astrofaceai.nl"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-us"
+  }, {
+    "id": "7231015d-a5f8-4253-95f4-0da926cba1c7",
+    "parts": [ {
+      "text": "my website is astrofaceai.nl"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-us"
+  }, {
+    "id": "5bd1e54e-aa00-4867-9400-4e8a83e4c68e",
+    "parts": [ {
+      "text": "my business web url is ",
+      "auto": true
+    }, {
+      "text": "www.astrofaceai.nl",
+      "parameterId": "client_website_url",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-us"
+  }, {
+    "id": "4293c89e-edd9-4cdc-b658-41fc19fe1e85",
+    "parts": [ {
+      "text": "my company website is ",
+      "auto": true
+    }, {
+      "text": "www.astrofaceai.nl",
+      "parameterId": "client_website_url",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-us"
+  }, {
+    "id": "2d83739c-55f1-4687-9864-7e95b962bdf1",
+    "parts": [ {
+      "text": "www.astrofaceai.nl",
+      "parameterId": "client_website_url",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-us"
+  } ]
+}

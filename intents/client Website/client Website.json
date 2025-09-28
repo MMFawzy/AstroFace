@@ -1,0 +1,10 @@
+{
+  "name": "66605832-f69a-4412-a793-553fc3b485f2",
+  "displayName": "client Website",
+  "parameters": [ {
+    "id": "client_website_url",
+    "entityType": "@sys.url"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 50
+}

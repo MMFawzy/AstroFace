@@ -1,0 +1,34 @@
+{
+  "name": "62e81dd8-9f18-4505-811d-ad1a0ad8dd68",
+  "displayName": "consultation Visit?",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "webhook": "TwillioBridge",
+    "tag": "visit",
+    "setParameterActions": [ {
+      "parameter": "contentSid",
+      "value": "HXbc336006b7da14d44671ee50f52c5525"
+    }, {
+      "parameter": "question",
+      "value": "plan a free consultation visit at your company"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "no_reply",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "consultation Call?",
+    "name": "1fe61f2f-cd6a-41e4-af64-d78abe0bc71a"
+  }, {
+    "intent": "yes_reply",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "will Get back",
+    "name": "429771be-3faa-4e44-890b-927e145cc7c9",
+    "description": "yesRoute"
+  } ]
+}

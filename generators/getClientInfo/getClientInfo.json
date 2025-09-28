@@ -1,0 +1,17 @@
+{
+  "name": "5b68ffb3-edb1-4483-906f-375dbf2b5a1c",
+  "displayName": "getClientInfo",
+  "placeholders": [ {
+    "id": "session",
+    "name": "session"
+  } ],
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 200,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "gemini-2.5-flash-lite"
+  }
+}

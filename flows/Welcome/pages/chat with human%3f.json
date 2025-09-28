@@ -1,0 +1,31 @@
+{
+  "name": "244cb645-c400-47b7-a370-458e09780160",
+  "displayName": "chat with human?",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "webhook": "TwillioBridge",
+    "tag": "liveChat",
+    "setParameterActions": [ {
+      "parameter": "question",
+      "value": "continue the chat with a specialist if you like"
+    }, {
+      "parameter": "contentSid",
+      "value": "HXbc336006b7da14d44671ee50f52c5525"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Transferring you to a human...\nSupport team will reach you here ASAP. \nAstroFace wishes you a great day! 🤗😇" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "END_FLOW_WITH_HUMAN_ESCALATION",
+    "name": "b4285fe4-44c5-47d1-8dec-570881e6b139"
+  } ]
+}

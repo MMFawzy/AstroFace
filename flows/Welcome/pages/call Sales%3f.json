@@ -1,0 +1,35 @@
+{
+  "name": "8dfa5b76-e89d-4dfb-968e-901754157bac",
+  "displayName": "call Sales?",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "webhook": "TwillioBridge",
+    "tag": "sales",
+    "setParameterActions": [ {
+      "parameter": "contentSid",
+      "value": "HXbc336006b7da14d44671ee50f52c5525"
+    }, {
+      "parameter": "question",
+      "value": "call sales team for more information"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "yes_reply",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "call Sales Action",
+    "name": "b12971d4-d37d-43f6-911e-3a9258bb8109",
+    "description": "yes"
+  }, {
+    "intent": "no_reply",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "chat with human?",
+    "name": "89aecbe4-97c4-4603-9761-a8a0ca3a76f6",
+    "description": "no"
+  } ]
+}

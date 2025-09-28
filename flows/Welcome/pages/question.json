@@ -1,0 +1,40 @@
+{
+  "name": "c9020fa0-e21d-43c1-993d-92e0440127ef",
+  "displayName": "question",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "this is a question. ok ?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "yes_reply",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "perfect! yess" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "this is yes",
+    "name": "2c0bcfe2-f277-4bd0-a9de-5206d0612de5",
+    "description": "yesRoute"
+  }, {
+    "intent": "no_reply",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "No problem" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "0c91391a-2273-4439-88bb-7360c4f7999a"
+  } ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "08fca0c5-976b-4f93-8085-970446e86608",
+  "displayName": "getClientAstroSolutions",
+  "placeholders": [ {
+    "id": "session",
+    "name": "session"
+  } ],
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 200,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "gemini-2.5-flash-lite"
+  }
+}

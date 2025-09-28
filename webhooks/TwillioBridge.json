@@ -1,0 +1,12 @@
+{
+  "name": "0c6eea40-df2a-4f02-9319-1c23f6dd9644",
+  "displayName": "TwillioBridge",
+  "genericWebService": {
+    "uri": "https://twillio-bridge-383808855761.europe-west1.run.app",
+    "webhookType": "STANDARD",
+    "serviceAgentAuth": "NONE"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

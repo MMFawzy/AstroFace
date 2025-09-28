@@ -1,0 +1,22 @@
+{
+  "name": "eec15a10-286e-4981-ab94-aee9bc5dd193",
+  "displayName": "bye bye",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ " AstroFace wishes you a great day! 🤗😇" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "name": "e2f58777-4d17-44de-a985-0003471cc840"
+  } ]
+}

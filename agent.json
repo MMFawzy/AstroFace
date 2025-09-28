@@ -1,0 +1,60 @@
+{
+  "displayName": "AstroFaceAI",
+  "defaultLanguageCode": "en",
+  "supportedLanguageCodes": [ "en-us" ],
+  "timeZone": "Europe/London",
+  "enableLogging": true,
+  "projectNumber": 383808855761,
+  "speechToTextSettings": {
+  
+  },
+  "startFlow": "Default Start Flow",
+  "enableStackdriverLogging": true,
+  "advancedSettings": {
+    "audioExportGcsDestination": {
+    
+    },
+    "speechSettings": {
+      "endpointerSensitivity": 90,
+      "noSpeechTimeout": {
+        "seconds": 5
+      }
+    },
+    "playbackInterruptionSettings": {
+    
+    },
+    "loggingSettings": {
+      "enableStackdriverLogging": true,
+      "enableInteractionLogging": true,
+      "enableConsentBasedRedaction": true
+    },
+    "speechAdaptationSettings": {
+    
+    }
+  },
+  "speakerIdSettings": {
+  
+  },
+  "textToSpeechSettings": {
+    "synthesizeSpeechConfigs": [ {
+      "key": "en",
+      "value": {
+        "speakingRate": 1,
+        "pitch": 2,
+        "voice": {
+        
+        }
+      }
+    } ]
+  },
+  "duplexSettings": {
+  
+  },
+  "answerFeedbackSettings": {
+  
+  },
+  "enableMultiLanguageTraining": true,
+  "webClientSettings": {
+    "boxBorderRadius": "0"
+  }
+}

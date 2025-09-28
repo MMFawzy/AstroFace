@@ -1,0 +1,32 @@
+{
+  "name": "5770412b-15f3-48dd-9a4a-0481c03cad15",
+  "displayName": "automation priority list",
+  "form": {
+    "parameters": [ {
+      "displayName": "priorityOption",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "webhook": "TwillioBridge",
+          "tag": "priority",
+          "setParameterActions": [ {
+            "parameter": "contentSid",
+            "value": "HXe94818990482598b6331f0c42737e8a9"
+          } ]
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.form.status = \"FINAL\"",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "get client url",
+    "name": "03d60a53-b2b6-4728-b7f5-71c6ecb6e026"
+  } ]
+}

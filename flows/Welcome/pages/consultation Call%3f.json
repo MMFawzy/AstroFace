@@ -1,0 +1,35 @@
+{
+  "name": "25ca0916-f398-4f4d-bb4e-a7686d08adb6",
+  "displayName": "consultation Call?",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "webhook": "TwillioBridge",
+    "tag": "call",
+    "setParameterActions": [ {
+      "parameter": "contentSid",
+      "value": "HXbc336006b7da14d44671ee50f52c5525"
+    }, {
+      "parameter": "question",
+      "value": "plan a free consultation call"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "no_reply",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "call Sales?",
+    "name": "4c7fe404-3aed-40aa-b9ba-5df2831d9687",
+    "description": "no"
+  }, {
+    "intent": "yes_reply",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "will Get back",
+    "name": "e7f70dd5-c3d1-4c17-889d-3db0f23ee17c",
+    "description": "yes"
+  } ]
+}

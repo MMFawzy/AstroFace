@@ -1,0 +1,24 @@
+{
+  "trainingPhrases": [ {
+    "id": "cbf72c67-b7f2-4e67-a613-e2591a4f1e44",
+    "parts": [ {
+      "text": "No"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-us"
+  }, {
+    "id": "9cc44ed4-c7e0-45bb-8299-a17202ba69da",
+    "parts": [ {
+      "text": "n"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-us"
+  }, {
+    "id": "766e3314-c9e7-4fa7-936a-8fa087e1613e",
+    "parts": [ {
+      "text": "no"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en-us"
+  } ]
+}

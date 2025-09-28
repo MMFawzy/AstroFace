@@ -1,0 +1,38 @@
+{
+  "name": "8d1df4f8-0aa3-4b9c-a422-4a2dd100bfd6",
+  "displayName": "replyPageTest",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "ok ?????" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "yes_reply",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "yesss" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "f246ef86-6cf8-461a-ac51-ab76fec5fcc0"
+  }, {
+    "intent": "no_reply",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "nooooo" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "2f0a82b0-9882-48ef-a9a7-f5997a3bfabd"
+  } ]
+}
