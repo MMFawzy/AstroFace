@@ -8,21 +8,21 @@
       "entityType": "@sys.any",
       "fillBehavior": {
         "initialPromptFulfillment": {
-          "webhook": "TwillioBridge",
-          "tag": "priority",
-          "setParameterActions": [ {
-            "parameter": "contentSid",
-            "value": "HXe94818990482598b6331f0c42737e8a9"
-          } ]
+        
         }
       }
     } ]
   },
   "entryFulfillment": {
-  
+    "webhook": "TwillioBridge",
+    "tag": "priority",
+    "setParameterActions": [ {
+      "parameter": "contentSid",
+      "value": "HXc7b9a2c758d4a8ad51aab85dd7dd098d"
+    } ]
   },
   "transitionRoutes": [ {
-    "condition": "$page.form.status = \"FINAL\"",
+    "condition": "$page.params.priorityOption != null",
     "triggerFulfillment": {
     
     },
